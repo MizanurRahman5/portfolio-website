@@ -11,9 +11,17 @@
 
   /* share style */
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .primary-color {
     color: #FD6E0A;
   }
+.dark-3{
+    font-size: 20px;
+    color: #757575;
+}
 .dark-2{
     color: #474747;
 }
@@ -28,9 +36,18 @@
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
   
 }
-
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
 /* Nave Style */
 
 
@@ -73,17 +90,137 @@ nav ul li a{
     width: 485px;
 }
 .banner-content{
-    width: 585px;
+   max-width: 585px;
 }
 .sub-title{
     font-size: 45px;
     font-weight: 600;
+    margin: 136px 0 10px 0;
 }
 .title{
     font-size: 85px;
     font-weight: bold;
+    margin: 0;
 }
 .banner-description{
     font-size: 18px;
     color: #757575;
+    
+}
+
+/* About Style */
+main{
+    width: 1140px;
+    margin: 100px auto;
+    
+}
+.about{
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+.center{
+    text-align: center;
+}
+
+/* Services Style */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill-container .skill{
+   max-width: 267px;
+   margin-top: 50px;
+   padding: 30px;
+   box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+   border-radius: 5px;
+}
+.skill-container .skill img{
+    width: 44px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-description{
+    font-size: 16px;
+}
+
+
+
+
+/* Projects Style */
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-colum-title-experience{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-subtitle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-download-btn{
+    margin-top: 50px;
+}
+
+/* Footer Style */
+.footer-content{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0 200px;
+    gap: 117px;
+    margin: 0 230px;
+    padding: 130px;
+}
+input[type="text"] {
+    height: 46px;
+    padding: 5px 20px;
+    width: 100%;
+    margin: 23px 0;
+    outline: none;
+    border: none;
+}
+input[type="email"] {
+    height: 46px;
+    padding: 5px 20px;
+    width: 100%;
+    margin: 23px 0;
+    outline: none;
+    border: none;
+}
+textarea {
+    border: none;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+}
+input.btn-primary {
+    margin-top: 24px;
 }
